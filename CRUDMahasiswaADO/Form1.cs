@@ -134,7 +134,7 @@ namespace CRUDMahasiswaADO
                 if (result > 0)
                 {
                     MessageBox.Show("Data mahasiswa berhasil ditambahkan");
-                    ClearForm();
+                    btnClearForm();
                     btnLoad.PerformClick();
                 }
                 else
@@ -178,7 +178,7 @@ namespace CRUDMahasiswaADO
                 if (result > 0)
                 {
                     MessageBox.Show("Data berhasil diupdate");
-                    ClearForm();
+                    btnClearForm();
                     btnLoad.PerformClick();
                 }
                 else
@@ -220,7 +220,7 @@ namespace CRUDMahasiswaADO
                     if (result > 0)
                     {
                         MessageBox.Show("Data berhasil dihapus");
-                        ClearForm();
+                        btnClearForm();
                         btnLoad.PerformClick();
                     }
                     else
@@ -251,7 +251,7 @@ namespace CRUDMahasiswaADO
             }
         }
 
-        private void ClearForm()
+        private void btnClearForm()
         {
             txtNIM.Clear();
             txtNama.Clear();

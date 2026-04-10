@@ -14,7 +14,7 @@ namespace CRUDMahasiswaADO
     public partial class Form1 : Form
     {
         private readonly SqlConnection conn;
-        private readonly string connectionString = "Data Sourche=MONO\\MONO_INDRA;Initial Catalog=DBAkademiADO;Integrated Security=True";
+        private readonly string connectionString = "Data Source=MONO\\MONO_INDRA;Initial Catalog=DBAkademiADO;Integrated Security=True";
 
         public Form1()
         {

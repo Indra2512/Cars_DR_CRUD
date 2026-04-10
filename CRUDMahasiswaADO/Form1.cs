@@ -13,12 +13,25 @@ namespace CRUDMahasiswaADO
 {
     public partial class Form1 : Form
     {
+        private readonly SqlConnection conn;
+        private readonly string connectionString = "Data Sourche=MONO\\MONO_INDRA;Initial Catalog=DBAkademiADO;Integrated Security=True";
+
         public Form1()
         {
             InitializeComponent();
         }
 
         private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
         {
 
         }

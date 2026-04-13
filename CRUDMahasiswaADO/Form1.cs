@@ -394,10 +394,21 @@ namespace CRUDMahasiswaADO
                     }
                 }
             }
-    }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Terjadi Kesalahan: " + ex.Message);
+            }
+        }
 
         private void cmbJK_SelectedIndexChanged(object sender, EventArgs e)
         {
-
+            txtNIM.Clear();
+            txtNama.Clear();
+            cmbJK.SelectedIndex = -1;
+            txtAlamat.Clear();
+            txtKodeProdi.Clear();
+            dtpTanggalLahir.Value = DateTime.Now;
+            txtNIM.Focus();
         }
     }
+}

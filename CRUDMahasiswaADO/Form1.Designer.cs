@@ -110,7 +110,7 @@
             // 
             // txtAlamat
             // 
-            this.txtAlamat.Location = new System.Drawing.Point(219, 198);
+            this.txtAlamat.Location = new System.Drawing.Point(219, 201);
             this.txtAlamat.Multiline = true;
             this.txtAlamat.Name = "txtAlamat";
             this.txtAlamat.Size = new System.Drawing.Size(254, 60);

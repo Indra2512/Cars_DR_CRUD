@@ -171,6 +171,7 @@ namespace CRUDMahasiswaADO
                 cmd.Parameters.AddWithValue("@Nama", txtNama.Text);
                 cmd.Parameters.AddWithValue("@JK", cmbJK.Text);
                 cmd.Parameters.AddWithValue("@TanggalLahir", dtpTanggalLahir.Value.Date);
+                cmd.Parameters.AddWithValue("@Alamat", txtAlamat.Text);
                 cmd.Parameters.AddWithValue("@KodeProdi", txtKodeProdi.Text);
 
                 int result = cmd.ExecuteNonQuery();

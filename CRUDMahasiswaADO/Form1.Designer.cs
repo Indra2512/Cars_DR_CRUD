@@ -123,6 +123,7 @@
             this.cmbJK.Name = "cmbJK";
             this.cmbJK.Size = new System.Drawing.Size(212, 28);
             this.cmbJK.TabIndex = 8;
+            this.cmbJK.SelectedIndexChanged += new System.EventHandler(this.cmbJK_SelectedIndexChanged);
             // 
             // dtpTanggalLahir
             // 
@@ -155,6 +156,7 @@
             this.button1.TabIndex = 12;
             this.button1.Text = "Membuka Koneksi";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // btnLoad
             // 
@@ -173,6 +175,7 @@
             this.button3.TabIndex = 14;
             this.button3.Text = "Menambahkan Data";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button4
             // 
@@ -182,6 +185,7 @@
             this.button4.TabIndex = 15;
             this.button4.Text = "Mengubah Data";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // ClearForm
             // 
@@ -191,6 +195,7 @@
             this.ClearForm.TabIndex = 16;
             this.ClearForm.Text = "Menghapus Data";
             this.ClearForm.UseVisualStyleBackColor = true;
+            this.ClearForm.Click += new System.EventHandler(this.ClearForm_Click);
             // 
             // dataGridView1
             // 
